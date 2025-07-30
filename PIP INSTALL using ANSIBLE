@@ -1,0 +1,21 @@
+FIRST create the yaml file and hosts.ini files.
+In this tasks i have install the ansible in UBUNTU WSL machine and when the run yaml file in the ubuntu , then tasks are will do.
+
+code for pip install using ANSIBLE
+
+
+- name: Install PIP
+  hosts: web
+  become: true
+  tasks:
+    - name: Install PIP
+      apt:
+        name: pip
+        state: present
+
+
+
+
+
+
+
