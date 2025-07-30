@@ -2,3 +2,7 @@
 
 
 IN THIS PROJECT I HAVE CREATED A ANSIBLE YAML FILE AND RUN THE TASKS.
+
+FIRST CREATE hosts.ini and Tasks.yaml files.
+
+
